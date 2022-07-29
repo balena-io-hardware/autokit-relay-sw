@@ -3,18 +3,18 @@ USB Relay
 
 Control simple USB HID Relays using Node JS like this one:
 
-![picture alt](https://github.com/josephdadams/USBRelay/raw/master/usbrelay.jpg "USB Relay")
+![picture alt](/usbrelay.jpg "USB Relay")
 
 ### To install
 
 ```bash
-npm i @josephdadams/usbrelay
+npm i @balena/usbrelay
 ```
 
 ### To use:
 
 ```javascript
-const USBRelay = require("@josephdadams/usbrelay");
+const USBRelay = require("@balena/usbrelay");
 const relay = new USBRelay(); //gets the first connected relay
 ```
 
