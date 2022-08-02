@@ -9,23 +9,21 @@
 import HID = require('node-hid');
 
 class USBRelay {
+	device: HID.HID;
+
 	// gets relay devices currently connected
 	static get Relays() {
 		const devices = HID.devices();
 		const connectedRelays = devices.filter((device) => {
 			return device.product && device.product.indexOf('USBRelay') !== -1;
 		});
-		connectedRelays.forEach((device) => {
-			try {
-				device.serial = new USBRelay(device.path).getSerialNumber();
-			} catch (e) {
-				device.serial = '';
-			}
-		});
-		return connectedRelays;
+
+		const relays = connectedRelays.map((device) => new USBRelay(device.path!));
+
+		return relays;
 	}
 
-	constructor(devicePath) {
+	constructor(devicePath: string) {
 		if (typeof devicePath === 'undefined') {
 			// Device path was not provided, so let's select the first connected device.
 			const devices = HID.devices();
@@ -35,14 +33,14 @@ class USBRelay {
 			if (!connectedRelays.length) {
 				throw new Error('No USB Relays are connected.');
 			}
-			this.device = new HID.HID(connectedRelays[0].path);
+			this.device = new HID.HID(connectedRelays[0].path!);
 		} else {
 			this.device = new HID.HID(devicePath);
 		}
 	}
 
 	// set the current state (on = true, off = false) of relayNumber
-	setState(relayNumber, state) {
+	setState(relayNumber: number, state: boolean) {
 		// Byte 0 = Report ID
 		// Byte 1 = State
 		// Byte 2 = Relay
@@ -84,7 +82,7 @@ class USBRelay {
 		this.device.sendFeatureReport(command);
 	}
 
-	getState(relayNumber) {
+	getState(relayNumber: number) {
 		const relayIndex = relayNumber - 1;
 		if (relayIndex < 0 || relayIndex > 7) {
 			throw new Error('Invalid relayNumber must be between 1 and 8');
