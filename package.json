@@ -1,6 +1,6 @@
 {
   "name": "@balena/usbrelay",
-  "version": "1.0.3",
+  "version": "0.1.0",
   "description": "Control USB HID Relays from Node.js",
   "main": "index.js",
   "keywords": [],
@@ -36,5 +36,8 @@
     "docs": "rimraf docs/ && npx typedoc lib/ --readme README.md --excludePrivate --excludeProtected --includeVersion --exclude 'lib/base.ts' --excludeExternals",
     "build": "npm run test && npm run docs && tsc",
     "prepack": "npm run build"
+  },
+  "versionist": {
+    "publishedAt": "2022-08-02T20:13:48.065Z"
   }
 }
