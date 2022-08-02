@@ -1,6 +1,6 @@
 {
   "name": "@balena/usbrelay",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Control USB HID Relays from Node.js",
   "main": "index.js",
   "keywords": [],
@@ -38,6 +38,6 @@
     "prepack": "npm run build"
   },
   "versionist": {
-    "publishedAt": "2022-08-02T20:13:48.065Z"
+    "publishedAt": "2022-08-02T23:52:14.269Z"
   }
 }
