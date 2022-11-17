@@ -1,0 +1,148 @@
+- commits:
+    - subject: Switch from balenaCI to flowzone
+      hash: c6f66e1ae1415ac7e153479610d9218809312aae
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Heath Raftery (@hraftery) <heath.raftery@balena.io>
+        signed-off-by: Heath Raftery (@hraftery) <heath.raftery@balena.io>
+      author: Heath Raftery
+      nested: []
+  version: 0.1.3
+  title: ""
+  date: 2022-11-17T10:26:48.727Z
+- version: 0.1.2
+  date: 2022-08-03T00:40:26Z
+  commits:
+    - hash: 791e56540d4a266638c22c536d7802c19bc48cd9
+      author: Pedro Henrique Kopper
+      footers:
+        change-type: patch
+        signed-off-by: Pedro Henrique Kopper <pedro.kopper@balena.io>
+      subject: Fix main entrypoint on package.json
+      body: null
+    - hash: df0120a8a0cf76c8428e34ede255e708e17fe6b4
+      author: Pedro Henrique Kopper
+      subject: Merge branch 'master' into phckopper/balenify-repo
+      body: null
+- version: 0.1.1
+- date: 2022-08-02T23:55:33Z
+- commits:
+    - hash: e4555a1a8847496eafd3203e04f4f461e86e188e
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Pedro Kopper <pedro.kopper@balena.io>
+- commits:
+    - subject: Add test directory
+- commits:
+    - body: null
+- commits:
+    - hash: 84030f931ee12d49179e2f689467241618c01713
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Remove package-lock.json
+- commits:
+    - body: null
+- commits:
+    - hash: 9061eb7a47e5480a97a730ac83894e2c95cd7f0b
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Fix conflict by removing package-lock.json
+- commits:
+    - body: null
+- version: 0.1.0
+- date: 2022-08-02T20:14:54Z
+- commits:
+    - hash: 85bcdd4736ec4893420e458835c9fc4c170f637f
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Update package.json
+- commits:
+    - body: null
+- commits:
+    - hash: 1b84ab77277563b8be9a9ecdc23b49dd4fc0004b
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Remove previous Github Actions
+- commits:
+    - body: null
+- commits:
+    - hash: ea9d6c6d3a8d187851955150c0694e0148b0c1f0
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Add repo.yml
+- commits:
+    - body: null
+- commits:
+    - hash: df9dad9058762483ac67fd0e23c89d33df690ae9
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Fix README references
+- commits:
+    - body: null
+- commits:
+    - hash: 7505838f2c108f12c525179b4ec85e007bfdb932
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Remove stray index.js
+- commits:
+    - body: null
+- commits:
+    - hash: 4d7db2ccd19e8f399194fc62b3310244828a404a
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Add types dependency
+- commits:
+    - body: null
+- commits:
+    - hash: a8489cb3fdb3418914894819983605eaeef9323b
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Move index to lib/
+- commits:
+    - body: null
+- commits:
+    - hash: 14927f0b49aebb9b034f291d2e89969b9c997d92
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Add tsconfig.json
+- commits:
+    - body: null
+- commits:
+    - hash: 1ddb56c7080bfd605953e9fbcabce06c3ca36d91
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - subject: Convert index.ts to Typescript
+- commits:
+    - body: null
+- commits:
+    - hash: a8c0117a314352b61bc61a86129c3c00e3a421ab
+- commits:
+    - author: Pedro Henrique Kopper
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - footers:
+        signed-off-by: Pedro Kopper <pedro.kopper@balena.io>
+- commits:
+    - subject: Add package-lock.json
+- commits:
+    - body: null
