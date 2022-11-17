@@ -10,6 +10,7 @@ import HID = require('node-hid');
 
 class USBRelay {
 	device: HID.HID;
+	devicePath: string;
 
 	// gets relay devices currently connected
 	static get Relays() {
@@ -37,6 +38,7 @@ class USBRelay {
 		} else {
 			this.device = new HID.HID(devicePath);
 		}
+		this.devicePath = devicePath;
 	}
 
 	// set the current state (on = true, off = false) of relayNumber
