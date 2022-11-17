@@ -1,4 +1,18 @@
 - commits:
+    - subject: expose device path
+      hash: 1c5e1938bb58ea7e5a5de6558fe396837b4a307e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ryan Cooke <ryan@balena.io>
+        signed-off-by: Ryan Cooke <ryan@balena.io>
+      author: rcooke-warwick
+      nested: []
+  version: 0.1.4
+  title: ""
+  date: 2022-11-17T15:07:18.558Z
+- commits:
     - subject: Switch from balenaCI to flowzone
       hash: c6f66e1ae1415ac7e153479610d9218809312aae
       body: ""
